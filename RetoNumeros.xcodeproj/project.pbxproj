@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C6BFD321D6671420088E4B9 /* RetoNumeros.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RetoNumeros.playground; sourceTree = "<group>"; };
 		8CBAEBE71D666026002ED658 /* RetoNumeros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetoNumeros.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBAEBEA1D666026002ED658 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CBAEBEC1D666026002ED658 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,7 +48,6 @@
 		8CBAEC061D666026002ED658 /* RetoNumerosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetoNumerosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBAEC0A1D666026002ED658 /* RetoNumerosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetoNumerosUITests.swift; sourceTree = "<group>"; };
 		8CBAEC0C1D666026002ED658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CBAEC181D6665FD002ED658 /* preubaNumeros.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = preubaNumeros.playground; path = ../../preubaNumeros.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +78,7 @@
 		8CBAEBDE1D666026002ED658 = {
 			isa = PBXGroup;
 			children = (
+				8C6BFD321D6671420088E4B9 /* RetoNumeros.playground */,
 				8CBAEBE91D666026002ED658 /* RetoNumeros */,
 				8CBAEBFE1D666026002ED658 /* RetoNumerosTests */,
 				8CBAEC091D666026002ED658 /* RetoNumerosUITests */,
@@ -100,7 +101,6 @@
 			children = (
 				8CBAEBEA1D666026002ED658 /* AppDelegate.swift */,
 				8CBAEBEC1D666026002ED658 /* ViewController.swift */,
-				8CBAEC181D6665FD002ED658 /* preubaNumeros.playground */,
 				8CBAEBEE1D666026002ED658 /* Main.storyboard */,
 				8CBAEBF11D666026002ED658 /* Assets.xcassets */,
 				8CBAEBF31D666026002ED658 /* LaunchScreen.storyboard */,
@@ -487,6 +487,7 @@
 				8CBAEC111D666026002ED658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CBAEC121D666026002ED658 /* Build configuration list for PBXNativeTarget "RetoNumerosTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +496,7 @@
 				8CBAEC141D666026002ED658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CBAEC151D666026002ED658 /* Build configuration list for PBXNativeTarget "RetoNumerosUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +505,7 @@
 				8CBAEC171D666026002ED658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
