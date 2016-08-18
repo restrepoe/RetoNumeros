@@ -47,6 +47,7 @@
 		8CBAEC061D666026002ED658 /* RetoNumerosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetoNumerosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBAEC0A1D666026002ED658 /* RetoNumerosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetoNumerosUITests.swift; sourceTree = "<group>"; };
 		8CBAEC0C1D666026002ED658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CBAEC181D6665FD002ED658 /* preubaNumeros.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = preubaNumeros.playground; path = ../../preubaNumeros.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 			children = (
 				8CBAEBEA1D666026002ED658 /* AppDelegate.swift */,
 				8CBAEBEC1D666026002ED658 /* ViewController.swift */,
+				8CBAEC181D6665FD002ED658 /* preubaNumeros.playground */,
 				8CBAEBEE1D666026002ED658 /* Main.storyboard */,
 				8CBAEBF11D666026002ED658 /* Assets.xcassets */,
 				8CBAEBF31D666026002ED658 /* LaunchScreen.storyboard */,
