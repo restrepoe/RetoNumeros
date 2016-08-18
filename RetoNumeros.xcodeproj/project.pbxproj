@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CBAEBEB1D666026002ED658 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEBEA1D666026002ED658 /* AppDelegate.swift */; };
+		8CBAEBED1D666026002ED658 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEBEC1D666026002ED658 /* ViewController.swift */; };
+		8CBAEBF01D666026002ED658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CBAEBEE1D666026002ED658 /* Main.storyboard */; };
+		8CBAEBF21D666026002ED658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CBAEBF11D666026002ED658 /* Assets.xcassets */; };
+		8CBAEBF51D666026002ED658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CBAEBF31D666026002ED658 /* LaunchScreen.storyboard */; };
+		8CBAEC001D666026002ED658 /* RetoNumerosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEBFF1D666026002ED658 /* RetoNumerosTests.swift */; };
+		8CBAEC0B1D666026002ED658 /* RetoNumerosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEC0A1D666026002ED658 /* RetoNumerosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CBAEBFC1D666026002ED658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CBAEBDF1D666026002ED658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CBAEBE61D666026002ED658;
+			remoteInfo = RetoNumeros;
+		};
+		8CBAEC071D666026002ED658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CBAEBDF1D666026002ED658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CBAEBE61D666026002ED658;
+			remoteInfo = RetoNumeros;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CBAEBE71D666026002ED658 /* RetoNumeros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetoNumeros.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBAEBEA1D666026002ED658 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CBAEBEC1D666026002ED658 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CBAEBEF1D666026002ED658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CBAEBF11D666026002ED658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CBAEBF41D666026002ED658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CBAEBF61D666026002ED658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CBAEBFB1D666026002ED658 /* RetoNumerosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetoNumerosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBAEBFF1D666026002ED658 /* RetoNumerosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetoNumerosTests.swift; sourceTree = "<group>"; };
+		8CBAEC011D666026002ED658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CBAEC061D666026002ED658 /* RetoNumerosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetoNumerosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBAEC0A1D666026002ED658 /* RetoNumerosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetoNumerosUITests.swift; sourceTree = "<group>"; };
+		8CBAEC0C1D666026002ED658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CBAEBE41D666026002ED658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBAEBF81D666026002ED658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBAEC031D666026002ED658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CBAEBDE1D666026002ED658 = {
+			isa = PBXGroup;
+			children = (
+				8CBAEBE91D666026002ED658 /* RetoNumeros */,
+				8CBAEBFE1D666026002ED658 /* RetoNumerosTests */,
+				8CBAEC091D666026002ED658 /* RetoNumerosUITests */,
+				8CBAEBE81D666026002ED658 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CBAEBE81D666026002ED658 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CBAEBE71D666026002ED658 /* RetoNumeros.app */,
+				8CBAEBFB1D666026002ED658 /* RetoNumerosTests.xctest */,
+				8CBAEC061D666026002ED658 /* RetoNumerosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CBAEBE91D666026002ED658 /* RetoNumeros */ = {
+			isa = PBXGroup;
+			children = (
+				8CBAEBEA1D666026002ED658 /* AppDelegate.swift */,
+				8CBAEBEC1D666026002ED658 /* ViewController.swift */,
+				8CBAEBEE1D666026002ED658 /* Main.storyboard */,
+				8CBAEBF11D666026002ED658 /* Assets.xcassets */,
+				8CBAEBF31D666026002ED658 /* LaunchScreen.storyboard */,
+				8CBAEBF61D666026002ED658 /* Info.plist */,
+			);
+			path = RetoNumeros;
+			sourceTree = "<group>";
+		};
+		8CBAEBFE1D666026002ED658 /* RetoNumerosTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CBAEBFF1D666026002ED658 /* RetoNumerosTests.swift */,
+				8CBAEC011D666026002ED658 /* Info.plist */,
+			);
+			path = RetoNumerosTests;
+			sourceTree = "<group>";
+		};
+		8CBAEC091D666026002ED658 /* RetoNumerosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CBAEC0A1D666026002ED658 /* RetoNumerosUITests.swift */,
+				8CBAEC0C1D666026002ED658 /* Info.plist */,
+			);
+			path = RetoNumerosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CBAEBE61D666026002ED658 /* RetoNumeros */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CBAEC0F1D666026002ED658 /* Build configuration list for PBXNativeTarget "RetoNumeros" */;
+			buildPhases = (
+				8CBAEBE31D666026002ED658 /* Sources */,
+				8CBAEBE41D666026002ED658 /* Frameworks */,
+				8CBAEBE51D666026002ED658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetoNumeros;
+			productName = RetoNumeros;
+			productReference = 8CBAEBE71D666026002ED658 /* RetoNumeros.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CBAEBFA1D666026002ED658 /* RetoNumerosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CBAEC121D666026002ED658 /* Build configuration list for PBXNativeTarget "RetoNumerosTests" */;
+			buildPhases = (
+				8CBAEBF71D666026002ED658 /* Sources */,
+				8CBAEBF81D666026002ED658 /* Frameworks */,
+				8CBAEBF91D666026002ED658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CBAEBFD1D666026002ED658 /* PBXTargetDependency */,
+			);
+			name = RetoNumerosTests;
+			productName = RetoNumerosTests;
+			productReference = 8CBAEBFB1D666026002ED658 /* RetoNumerosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CBAEC051D666026002ED658 /* RetoNumerosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CBAEC151D666026002ED658 /* Build configuration list for PBXNativeTarget "RetoNumerosUITests" */;
+			buildPhases = (
+				8CBAEC021D666026002ED658 /* Sources */,
+				8CBAEC031D666026002ED658 /* Frameworks */,
+				8CBAEC041D666026002ED658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CBAEC081D666026002ED658 /* PBXTargetDependency */,
+			);
+			name = RetoNumerosUITests;
+			productName = RetoNumerosUITests;
+			productReference = 8CBAEC061D666026002ED658 /* RetoNumerosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CBAEBDF1D666026002ED658 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Esteban Restrepo";
+				TargetAttributes = {
+					8CBAEBE61D666026002ED658 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = MJ3UX2684P;
+					};
+					8CBAEBFA1D666026002ED658 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = MJ3UX2684P;
+						TestTargetID = 8CBAEBE61D666026002ED658;
+					};
+					8CBAEC051D666026002ED658 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = MJ3UX2684P;
+						TestTargetID = 8CBAEBE61D666026002ED658;
+					};
+				};
+			};
+			buildConfigurationList = 8CBAEBE21D666026002ED658 /* Build configuration list for PBXProject "RetoNumeros" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CBAEBDE1D666026002ED658;
+			productRefGroup = 8CBAEBE81D666026002ED658 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CBAEBE61D666026002ED658 /* RetoNumeros */,
+				8CBAEBFA1D666026002ED658 /* RetoNumerosTests */,
+				8CBAEC051D666026002ED658 /* RetoNumerosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CBAEBE51D666026002ED658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBAEBF51D666026002ED658 /* LaunchScreen.storyboard in Resources */,
+				8CBAEBF21D666026002ED658 /* Assets.xcassets in Resources */,
+				8CBAEBF01D666026002ED658 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBAEBF91D666026002ED658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBAEC041D666026002ED658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CBAEBE31D666026002ED658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBAEBED1D666026002ED658 /* ViewController.swift in Sources */,
+				8CBAEBEB1D666026002ED658 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBAEBF71D666026002ED658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBAEC001D666026002ED658 /* RetoNumerosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBAEC021D666026002ED658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBAEC0B1D666026002ED658 /* RetoNumerosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CBAEBFD1D666026002ED658 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CBAEBE61D666026002ED658 /* RetoNumeros */;
+			targetProxy = 8CBAEBFC1D666026002ED658 /* PBXContainerItemProxy */;
+		};
+		8CBAEC081D666026002ED658 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CBAEBE61D666026002ED658 /* RetoNumeros */;
+			targetProxy = 8CBAEC071D666026002ED658 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CBAEBEE1D666026002ED658 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CBAEBEF1D666026002ED658 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CBAEBF31D666026002ED658 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CBAEBF41D666026002ED658 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CBAEC0D1D666026002ED658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CBAEC0E1D666026002ED658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CBAEC101D666026002ED658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RetoNumeros/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RetoNumeros;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CBAEC111D666026002ED658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RetoNumeros/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RetoNumeros;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8CBAEC131D666026002ED658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RetoNumerosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RetoNumerosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetoNumeros.app/RetoNumeros";
+			};
+			name = Debug;
+		};
+		8CBAEC141D666026002ED658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RetoNumerosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RetoNumerosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetoNumeros.app/RetoNumeros";
+			};
+			name = Release;
+		};
+		8CBAEC161D666026002ED658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RetoNumerosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RetoNumerosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RetoNumeros;
+			};
+			name = Debug;
+		};
+		8CBAEC171D666026002ED658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RetoNumerosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RetoNumerosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RetoNumeros;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CBAEBE21D666026002ED658 /* Build configuration list for PBXProject "RetoNumeros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CBAEC0D1D666026002ED658 /* Debug */,
+				8CBAEC0E1D666026002ED658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CBAEC0F1D666026002ED658 /* Build configuration list for PBXNativeTarget "RetoNumeros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CBAEC101D666026002ED658 /* Debug */,
+				8CBAEC111D666026002ED658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CBAEC121D666026002ED658 /* Build configuration list for PBXNativeTarget "RetoNumerosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CBAEC131D666026002ED658 /* Debug */,
+				8CBAEC141D666026002ED658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CBAEC151D666026002ED658 /* Build configuration list for PBXNativeTarget "RetoNumerosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CBAEC161D666026002ED658 /* Debug */,
+				8CBAEC171D666026002ED658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CBAEBDF1D666026002ED658 /* Project object */;
+}
